@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image whitewall4_1K_Diffuse.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 8
+	Usage DEFAULT
+	UsageFlags -
+	ExtraFlags 0
+}

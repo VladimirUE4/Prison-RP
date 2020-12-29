@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image AM_Mugshot_Room_Metal_girder_S.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 7
+	Usage DEFAULT
+	UsageFlags -
+	ExtraFlags 0
+}

@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image am_mugshot_room_poster.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 8
+	Usage DEFAULT
+	UsageFlags -
+	ExtraFlags 0
+}

@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image P_MI_StlBat_Ca_sM.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 6
+	Usage DEFAULT
+	UsageFlags -
+	ExtraFlags 0
+}

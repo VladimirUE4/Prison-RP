@@ -1,0 +1,9 @@
+Config = {}
+Config.ESX = true
+Config.BotToken = "NzU5NDE4NTIzMDEyMzAwODQw.X29NnQ.LVPKmTPr91osH8dERRXjrfj5uJA"
+Config.WebHook = "https://discordapp.com/api/webhooks/769662284268044329/fRY-fUoLPODQDCR6CopH28xQnDJJdg08qPo4kRRoZ0mXlKUe2TDCSDdiazusHRazdTss"
+Config.ChannelID = "769661518584741918"
+Config.ReplyUserName = "Prison RP | Commande IG"
+Config.AvatarURL = "https://cdn.discordapp.com/attachments/768891074524872744/768915826371067924/prison_rp_logo_gif.gif"
+Config.Prefix = "+"
+Config.WaitEveryTick = 4000  -- ITS MS

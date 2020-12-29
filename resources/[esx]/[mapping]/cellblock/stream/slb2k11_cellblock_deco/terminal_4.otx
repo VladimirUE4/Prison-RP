@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image terminal_4.dds
+	Type Regular
+	PixelFormat DXT1
+	Levels 11
+	Usage DEFAULT
+	UsageFlags -
+	ExtraFlags 0
+}

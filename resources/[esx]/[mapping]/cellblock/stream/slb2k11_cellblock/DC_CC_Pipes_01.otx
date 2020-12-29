@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image DC_CC_Pipes_01.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 7
+	Usage DEFAULT
+	UsageFlags -
+	ExtraFlags 0
+}

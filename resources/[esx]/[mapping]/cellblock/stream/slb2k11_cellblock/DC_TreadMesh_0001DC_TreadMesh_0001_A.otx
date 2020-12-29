@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image DC_TreadMesh_0001DC_TreadMesh_0001_A.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 8
+	Usage DEFAULT
+	UsageFlags -
+	ExtraFlags 0
+}

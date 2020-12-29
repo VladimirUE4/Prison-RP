@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      ANM Loading Screen
+    </title>
+
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta content="" name="keywords">
+    <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" name="viewport">
+    <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/style-dark.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/colors/yellow-2.css" media="screen" rel="stylesheet" title="yellow-2" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CDosis:200,300,400,500,600,700,800%7COswald:300,400,700%7CMontserrat:400,700" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <div class="film-grain"></div>
+
+    <div id="preloader">
+      <div id="preloader-status">
+        <div class="preloader-position preloader-effect">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <div
+    class="hero-fullscreen hero-bg">
+      <div class="slide-YT hero-fullscreen">
+        <div class="slide bg-img-YT"></div>
+        <div id="videoContainment"></div><a class="player" data-property="{videoURL:'https://youtu.be/ehNle9KSERM?t=139', mute:true, showControls:false, quality:'default', opacity:0.5, containment:'#videoContainment', optimizeDisplay:true, loop:true, startAt:0, autoPlay:true, showYTLogo:false, addRaster:false, realfullscreen:true}" id="bgndVideo"></a>
+      </div>
+      <div class="preload-content"></div>
+    </div>
+
+    <div class="menu-trigger top-position" id="menu">
+      <button class="lines-button minus menu-toggle" id="main-menu-caller" type="button"><span class="lines"></span></button>
+    </div>
+
+    <svg id="cursor" width="20" height="20">
+      <defs>
+        <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#f2c061"></stop>
+          <stop offset="100%" stop-color="#03edf8"></stop>
+        </linearGradient>
+      </defs>
+      <circle r="07" cx="10" cy="10" fill="none"></circle>
+      <line x1="0" y1="0" x2="20" y2="20"></line>
+      <line x1="0" y1="20" x2="20" y2="0"></line>
+    </svg>
+
+    <div id="ui-layer">
+      <div id="menu-wrapper">
+        <div id="main-menu">
+          <div class="menu-nav-wrapper">
+            <nav class="menu-nav">
+              <ul class="brackets">
+                <li class="menu">
+                  <a class="menu-state active"
+                    href="#"
+                    id="fire-home">ACCEUIL</a>
+                </li>
+                <li class="menu">
+                  <a class="menu-state" href="#" id="fire-services">REGLEMENT</a>
+                </li>
+                <li class="menu">
+                  <a class="menu-state" href="#" id="fire-contact">Equipe de Prison RP</a>
+                </li>
+                <li class="menu credits">
+                  <a href="#">Prison RP&copy;2020.</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="upper-page current"
+        id="home">
+      <div class="logo top-position"></div>
+
+      <div class="line-left left-position"></div>
+
+      <div class="line-right right-position">
+        <a href="#">Prison RP &copy; 2020.</a>
+      </div>
+
+      <div class="transparent-borders OFF"></div>
+      <div class="center-container-home">
+
+        <div class="center-block-home">
+
+          <div class="upper-content">
+
+            <div class="container sections">
+
+              <div class="row">
+
+                <div class="fin-wrapper introduction">
+
+                  <div class="fin-slides-wrapper">
+                    <ul class="fin-slides">
+                      <li>
+                        <h3>
+                          BIENVENUE SUR PRISON RP
+                        </h3>
+                      </li>
+                      <li>
+                        <h3>
+                          REJOIGNEZ NOUS
+                        </h3>
+                      </li>
+                      <li>
+                        <h3>
+                          REALISER VOS PROJETS
+                        </h3>
+                      </li>
+                    </ul>
+                  </div>               
+                  <div class="fin-heading">
+                    <h1 class="fin-heading">
+                      • Prison RP •
+                    </h1>
+                  </div>
+                  <div class="fin-subheading">
+                    &middot; ROLEPLAY &middot;                              
+                      <audio id='muzica' volume='0.1' autoplay controls>
+                        <source src="prison.mp3" type="audio/mpeg">
+                      </audio>
+                      <script>
+                        var audio = document.getElementById("muzica");
+                        audio.volume = 0.2;
+                      </script>             
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="lower-page"
+       id="services">
+
+    <div class="center-container">
+
+      <div class="center-block">
+
+        <div class="lower-content">
+
+          <div class="container sections">
+
+            <div class="row">
+              <h4>
+              </h4>
+              <h2>
+               <span class="get-behind">Règles Général</span>
+              </h2>
+            </div>
+
+            <div class="row">
+
+              <div class="dividerOT"></div><!-- divider end -->
+            </div>
+
+            <div class="services-columns">
+
+              <div class="row">
+                <div class="col-md-6 services-padding mb40">
+                  <h5>
+                    <span class="awesome">Règle </span> Numéro 1
+                  </h5>
+                  <p>
+                    &middot; 0.07 - Tous les joueurs rejoignant le serveur doivent obligatoirement être connectés sur le discord et avoir le même « Prénom & Nom » Roleplay sur Steam & In-game.
+                   <br> &middot; 0.08 - Le respect et la politesse étant deux choses primordiales, un bonjour n’a jamais tué quelqu’un et un merci non plus. Cependant les insultes dites « Roleplay » sont tolérées jusqu’à certaines limites: Les propos racistes à très haut degrés, le harcèlement à la limite du RP.
+                   <br> &middot; 0.09 - L’utilisation des radios extérieures au jeu doit être effectuée de façon RP. Si vous parlez dans votre radio, les joueurs qui sont autour de vous doivent obligatoirement vous entendre.
+                  </p>
+                </div>
+                <div class="col-md-6 services-padding border-left-services mb40">
+                  <h5>
+                    <span class="awesome">Règle</span> Numéro 2
+                  </h5>
+                  <p>
+                    &middot; 0.10 - Toute activité illégale effectuée sur le site d’un événement organisé sont interdites et passibles d’un bannissement temporaire. Que ce soit un événement organisé par un joueur comme par un membre du staff. (Les événements annoncés dans le channel adapté sont forcément acceptés par le staff)
+                  <br> &middot; 0.11 - Tous les joueurs se doivent d’appliquer la liste des premières choses à respecter. (Voir règlement définitions globales)
+                   <br> &middot; 0.12 - L’utilisation du dialecte « HRP » en jeu est formellement interdite.
+				    <br> &middot; 0.13 - Dans la mesure où un joueur enfreint une règle lors d’une scène vous ne devez surtout pas couper la scène de suite, attendez qu’elle se termine et ensuite parlez-en avec le(s) principal/aux concerné(s) et un modérateur.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 services-padding border-top-services mt40">
+                  <h5>
+                    <span class="awesome">Règle</span> Numéro 3
+                  </h5>
+                  <p>
+                    &middot; 0.14 - Les banques: Si un joueur est autour/dans (d’)une banque vous n’êtes pas en mesure de le braquer, suivez-le et attendez qu’il soit un peu plus loin pour le braquer.
+                  <br> &middot; 0.15 - Tous les propos énoncés en jeu sont RP et font l’objet d’une libre utilisation dans le futur de votre personnage, attention à ce que vous dites donc. En aucun cas vous devez sortir de votre personnage, peu importe la raison. 
+				  <br> &middot; 0.16 - Le staff n’est pas dupe, si vous faites exprès de bloquer le RP de quelqu’un en HRP vous serez sanctionné.
+				  <br> &middot;0.17 - Quitter une action RP avant qu’elle ne soit terminée via un ALT+F4 ou tout autre moyen permettant de vous échapper est interdit.
+
+                  </p>
+                </div>
+                <div class="col-md-6 services-padding border-left-services border-top-services mt40">
+                  <h5>
+                    <span class="awesome">Règle</span> Autres
+                  </h5>
+                  <p>
+                    &middot; 0.18 - Rester AFK dans des zones hautement convoitées est interdit. (Pensez à celui qui voudra venir vous dire bonjour alors que vous êtes aux toilettes.)
+                    <br> &middot; 0.19 - L’utilisation d’un modificateur de voix/soundboard est strictement interdite. La modération pourra exceptionnellement vous accorder une autorisation en fonction de la situation.
+					<br> &middot; 0.20 - Il est interdit de prétendre reconnaître quelqu’un de masqué de part son accent, sa voix ou par des déductions basées sur le nombre de joueurs ayant telles ou telles armes/voitures/tenues.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lower-page"
+       id="contact">
+
+    <div class="center-container">
+
+      <div class="center-block">
+
+        <div class="lower-content">
+
+          <div class="container sections">
+
+            <div class="row">
+              <h4>
+              </h4>
+              <h2>
+               <span class="get-behind">Equipe de Prison RP </span>
+              </h2>
+            </div>
+
+            <div class="row">
+
+              <div class="dividerOT"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <span class="awesome-contact"><i class="fab fa-discord"></i></span>
+                <p>
+                  👹 Fondateurs<br>
+                  <a>👹 | '𝐉𝐎𝐊𝐄𝐑™ & SиєɑӾ & Vαтo</a>
+                </p>
+              </div>
+              <div class="col-md-4">
+                <span class="awesome-contact"><i class="fab fa-discord"></i></span>
+                <p>
+                 💻 Developpeur<br>
+                  <a>💻 | '𝐉𝐎𝐊𝐄𝐑™ & Vαтo</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"
+          type="text/javascript"></script>
+  <script src="js/plugins.js"
+          type="text/javascript"></script>
+  <script src="js/main.js"
+          type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image V_MP_socket_01_n.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 6
+	Usage DEFAULT
+	UsageFlags -
+	ExtraFlags 0
+}
